@@ -39,7 +39,7 @@ const App = () => {
           likes: user.likes + 1 
         }
       }else{
-        return null;
+        return {...user};
       }
     }))
   };
